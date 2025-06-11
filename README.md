@@ -20,16 +20,9 @@ This script analyzes the `NodeJsApp.log` file and counts how many times each end
 python3 numberEndPointAccessed.py
 ```
 
-#### Example Output
+#### Expected Output
 
-```
-Endpoint Access Counts:
-/api/login: 125
-/api/logout: 85
-/api/tasks: 60
-```
-
----
+![Architecture Diagram](./Result-of-numberEndPointAccessed-Script.png)
 
 ### 2. numberOfRequestsAfterPerIP.py
 
@@ -47,14 +40,9 @@ This script examines request patterns per IP address and determines how many req
 python3 numberOfRequestsAfterPerIP.py
 ```
 
-#### Example Output
+#### Expected Output
 
-```
-192.168.1.5: 3 requests within 10 seconds after the first
-10.0.0.1: 7 requests within 10 seconds after the first
-```
-
----
+![Architecture Diagram](./Result-of-numberOfRequestsAfterPerIP-Script.png)
 
 ### 3. requestFromEachUserAgent.py
 
@@ -72,13 +60,9 @@ This script analyzes the `NodeJsApp.log` file to count the number of requests fr
 python3 requestFromEachUserAgent.py
 ```
 
-#### Example Output
+#### Expected Output
 
-```
-Request Count per User-Agent:
-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64): Count: 105
-Agent: curl/7.68.0: Count: 30
-```
+![Architecture Diagram](./Result-of-requestFromEachUserAgent-Script.png)
 
 ## Setup Instructions
 
