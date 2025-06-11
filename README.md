@@ -87,8 +87,8 @@ To use these scripts from GitHub, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Zapwap123/Python-Scripts-To-Extract-Information-From-A-Log-File.git
+cd Python-Scripts-To-Extract-Information-From-A-Log-File
 ```
 
 ### 2. Add the Log File
