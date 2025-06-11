@@ -1,13 +1,11 @@
 import re
 from collections import Counter
 
-# Path to your log file
+# Path to my log file
 log_file = 'NodeJsApp.log'
 
 # Regex pattern to extract the HTTP method and endpoint
 pattern = re.compile(r'"[A-Z]+\s+(/[^ ]*)\s+HTTP/[\d.]+"')
-
-# pattern = re.compile(r'"[A-Z]+\s+(/[^ ]*)\s+HTTP/[\d.]+"')
 
 # Counter to hold the endpoint access counts
 endpoint_counter = Counter()
